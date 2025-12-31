@@ -28,9 +28,9 @@ spec:
         server: '{{server}}'
         namespace: '{{path.basename}}'
     # Sync policy
-  syncPolicy:
-      - CreateNamespace=true
-    automated: 
-      prune: true 
-      selfHeal: true 
-      allowEmpty: false 
+      syncPolicy:
+          - CreateNamespace=true
+        automated: 
+          prune: true 
+          selfHeal: true 
+          allowEmpty: false 
